@@ -8,7 +8,7 @@ import Map from '../components/Map';
 import styles from '../../styles/Home.module.css';
 
 
-const DEFAULT_CENTER = [33.35770, -8.29577]
+const DEFAULT_CENTER = [33.295175,-8.1506363]
 
 
 
@@ -17,17 +17,17 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Mes dunes</title>
+        <title>Les charmes du terroire</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Mes Dunes
+          Les charmes du terroire
         </h1>
 
         <p className={styles.description}>
-          Comment se rendre au gîte Mes dunes depuis la route côtière RR320
+          Comment se rendre au gîte Le charmes du terroire depuis l'entrée d'autoroute Tnine Chtouka
         </p>
 
         <Map className={styles.homeMap} center={DEFAULT_CENTER} zoom={15}>
