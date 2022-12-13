@@ -27,7 +27,7 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          Comment se rendre au gîte Le charmes du terroire depuis l'entrée d'autoroute Tnine Chtouka
+          Comment se rendre au gîte Les charmes du terroire depuis l'entrée d'autoroute Tnine Chtouka
         </p>
 
         <Map className={styles.homeMap} center={DEFAULT_CENTER} zoom={15}>
